@@ -1,0 +1,87 @@
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.exe.config
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.exe
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.pdb
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.exe.config
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.exe
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.pdb
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.exe
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.pdb
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\Newtonsoft.Json.dll
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\System.Net.Http.Formatting.dll
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\Newtonsoft.Json.xml
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\System.Net.Http.Formatting.xml
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\03_WpfHttpClient.csprojResolveAssemblyReference.cache
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\MainWindow.baml
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\MainWindow.g.cs
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\App.g.cs
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient_MarkupCompile.cache
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.g.resources
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.Properties.Resources.resources
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\03_WpfHttpClient.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.exe.config
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.exe
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.pdb
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient_MarkupCompile.cache
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.g.resources
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.Properties.Resources.resources
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\03_WpfHttpClient.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.exe
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.pdb
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.exe.licenses
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\03_WpfHttpClient.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\BuyTicket.baml
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\BuyTicket.g.cs
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient_Content.g.cs
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\DataModel\Movie.mdf
+C:\Users\Admin\Desktop\003 WebAPI Part II\001 HttpClientSample\WpfHttpClient\bin\Debug\DataModel\Movie_log.ldf
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.exe.config
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.exe
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.pdb
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\DataModel\Movie.mdf
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\DataModel\Movie_log.ldf
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.exe
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.pdb
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\BuyTicket.baml
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\MainWindow.baml
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\BuyTicket.g.cs
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient_Content.g.cs
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient_MarkupCompile.cache
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.g.resources
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\03_WpfHttpClient.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.exe.licenses

@@ -1,0 +1,17 @@
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.exe.config
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.exe
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\bin\Debug\WpfHttpClient.pdb
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.csprojResolveAssemblyReference.cache
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\obj\Debug\MainWindow.baml
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\obj\Debug\MainWindow.g.cs
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\obj\Debug\App.g.cs
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient_MarkupCompile.cache
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.g.resources
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.Properties.Resources.resources
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.csproj.GenerateResource.Cache
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.exe
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.pdb
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\bin\Debug\Newtonsoft.Json.dll
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\bin\Debug\System.Net.Http.Formatting.dll
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\bin\Debug\Newtonsoft.Json.xml
+D:\Lessons\ASP.NET MVC 4\003 WebAPI Part II\HttpClientSample\WpfHttpClient\bin\Debug\System.Net.Http.Formatting.xml

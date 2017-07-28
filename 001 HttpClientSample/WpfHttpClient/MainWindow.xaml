@@ -1,0 +1,33 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" x:Class="WpfHttpClient.MainWindow"
+        Title="Продажа билетов" Height="473.881" Width="720.522">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="1" HorizontalAlignment="Stretch" Margin="0,327,0,40"/>
+        <dxg:GridControl x:Name="_gridControl" AutoGenerateColumns="AddNew" EnableSmartColumnsGeneration="True" Margin="0,25,0,22" Grid.RowSpan="2" PreviewMouseRightButtonDown="GridControl_PreviewMouseRightButtonDown">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="Column1"/>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowPerPixelScrolling="True" ShowTotalSummary="True"/>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <StatusBar HorizontalAlignment="Left" Height="25" Margin="0,382,0,-3" Grid.Row="1" VerticalAlignment="Top" Width="713" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Stretch">
+            <Label x:Name="StatusLbl" Height="30" Width="713" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center"/>
+        </StatusBar>
+        <Menu Margin="0,0,0,15">
+            <MenuItem Header="Файл" Click="MenuItem_Click">
+                <MenuItem Header="Выход"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Билеты" Click="MenuItem_Click_1">
+                <MenuItem Header="Купить"></MenuItem>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
