@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
+using System.Net.Http.Formatting;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -21,6 +23,10 @@ namespace WpfHttpClient
     /// </summary>
     public partial class BuyTicket : Window
     {
+        private const string URI = "http://localhost:8889/api/movies";
+
+        public Ticket Ticket {get; set; }
+
         public BuyTicket()
         {
             InitializeComponent();
@@ -30,24 +36,13 @@ namespace WpfHttpClient
         {
             HttpClient client = new HttpClient();
 
+
+
             client
-                .GetAsync("URI")
+                .PostAsync(URI,Ticket,new JsonMediaTypeFormatter())
                 .ContinueWith(response =>
                 {
-                    if (response.Exception != null)
-                    {
-                        MessageBox.Show(response.Exception.Message);
-                    }
-                    else
-                    {
-                        System.Threading.Thread.Sleep(2000);//TODO
-                        HttpResponseMessage message = response.Result;
-
-                        string responseText = message.Content.ReadAsStringAsync().Result;
-
-                        Dispatcher.BeginInvoke(DispatcherPriority.Normal,
-                            (Action)(() => {  })); //TODO
-                    }
+                    response.Result.EnsureSuccessStatusCode();
                 });
         }
     }

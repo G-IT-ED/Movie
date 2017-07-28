@@ -24,6 +24,9 @@ namespace WpfHttpClient
     public partial class MainWindow : Window
     {
         private MovieEntities _contextEntities = new MovieEntities();
+
+        private const string URI = "http://localhost:8889/api/movies";
+
         public MainWindow()
         {
             InitializeComponent();
@@ -45,7 +48,27 @@ namespace WpfHttpClient
 
         private EventHandler RefreshMovies()
         {
+            HttpClient client = new HttpClient();
 
+            client
+                .GetAsync(URI)
+                .ContinueWith(response =>
+                {
+                    if (response.Exception != null)
+                    {
+                        MessageBox.Show(response.Exception.Message);
+                    }
+                    else
+                    {
+                        System.Threading.Thread.Sleep(2000);//TODO
+                        HttpResponseMessage message = response.Result;
+
+                        string responseText = message.Content.ReadAsStringAsync().Result;
+
+                        Dispatcher.BeginInvoke(DispatcherPriority.Normal,
+                            (Action)(() => { })); //TODO
+                    }
+                });
             return null;
         }
 

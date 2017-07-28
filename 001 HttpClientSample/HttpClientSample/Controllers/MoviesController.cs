@@ -14,7 +14,8 @@ namespace HttpClient.Controllers
         // Получение всех требуемых киносеансов
         public IEnumerable<Movie> Get()
         {
-            List<Movie> movies = _contextEntities.Movies.Where(x=>x.TimeBegin>DateTime.Now).ToList();
+            //List<Movie> movies = _contextEntities.Movies.Where(x=>x.TimeBegin>DateTime.Now).ToList();
+            List<Movie> movies = _contextEntities.Movies.ToList();
             return movies;
         }
 

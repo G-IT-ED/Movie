@@ -16,6 +16,6 @@ namespace WpfHttpClient.DataModel
     {
         public string Guid { get; set; }
         public string Name { get; set; }
-        public string TimeBegin { get; set; }
+        public Nullable<System.DateTime> TimeBegin { get; set; }
     }
 }

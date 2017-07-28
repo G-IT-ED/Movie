@@ -168,10 +168,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Movie.mdf" />
-    <Content Include="App_Data\Movies.mdf" />
-    <Content Include="App_Data\Movies_log.ldf">
-      <DependentUpon>Movies.mdf</DependentUpon>
-    </Content>
     <Content Include="App_Data\Movie_log.ldf">
       <DependentUpon>Movie.mdf</DependentUpon>
     </Content>
