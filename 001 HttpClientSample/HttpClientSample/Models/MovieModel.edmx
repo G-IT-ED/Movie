@@ -14,6 +14,9 @@
       FROM [dbo].[Movies] AS [Movies]</DefiningQuery>
           </EntitySet>
         </EntityContainer>
+        <!--Ошибки, обнаруженные при создании:
+      предупреждение 6002: В таблице или представлении "C:\USERS\ADMIN\DOCUMENTS\GITHUB\MOVIE\001 HTTPCLIENTSAMPLE\HTTPCLIENTSAMPLE\APP_DATA\MOVIE.MDF.dbo.Movies" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.
+      -->
         <EntityType Name="Movies">
           <Key>
             <PropertyRef Name="Guid" />
@@ -27,7 +30,7 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="MovieModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityContainer Name="MovieEntities" p1:LazyLoadingEnabled="true">
+        <EntityContainer Name="MoviesEntities" p1:LazyLoadingEnabled="true">
           <EntitySet Name="Movies" EntityType="MovieModel.Movie" />
         </EntityContainer>
         <EntityType Name="Movie">
@@ -43,7 +46,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище MovieModelContainer" CdmEntityContainer="MovieEntities">
+        <EntityContainerMapping StorageEntityContainer="Хранилище MovieModelContainer" CdmEntityContainer="MoviesEntities">
           <EntitySetMapping Name="Movies">
             <EntityTypeMapping TypeName="MovieModel.Movie">
               <MappingFragment StoreEntitySet="Movies">

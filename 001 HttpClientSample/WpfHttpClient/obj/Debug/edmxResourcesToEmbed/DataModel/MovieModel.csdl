@@ -9,6 +9,6 @@
     </Key>
     <Property Name="Guid" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
     <Property Name="Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
-    <Property Name="TimeBegin" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="TimeBegin" Type="DateTime" Precision="0" />
   </EntityType>
 </Schema>

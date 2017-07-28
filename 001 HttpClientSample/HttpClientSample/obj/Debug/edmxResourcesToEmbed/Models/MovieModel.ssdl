@@ -9,11 +9,14 @@
       FROM [dbo].[Movies] AS [Movies]</DefiningQuery>
     </EntitySet>
   </EntityContainer>
+  <!--Ошибки, обнаруженные при создании:
+      предупреждение 6002: В таблице или представлении "C:\USERS\ADMIN\DOCUMENTS\GITHUB\MOVIE\001 HTTPCLIENTSAMPLE\HTTPCLIENTSAMPLE\APP_DATA\MOVIE.MDF.dbo.Movies" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.
+      -->
   <EntityType Name="Movies">
     <Key>
       <PropertyRef Name="Guid" />
     </Key>
-    <Property Name="Guid" Type="Guid" Nullable="false" MaxLength="50" />
+    <Property Name="Guid" Type="nvarchar" Nullable="false" MaxLength="50" />
     <Property Name="Name" Type="nvarchar" MaxLength="50" />
     <Property Name="TimeBegin" Type="smalldatetime" />
   </EntityType>

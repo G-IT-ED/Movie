@@ -113,4 +113,3 @@ C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\HttpClientSample\bin\
 C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\HttpClientSample\bin\System.Web.WebPages.Razor.xml
 C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\HttpClientSample\obj\Debug\HttpClientSample.dll
 C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\HttpClientSample\obj\Debug\HttpClientSample.pdb
-C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\HttpClientSample\obj\Debug\01_WebApp.csprojResolveAssemblyReference.cache

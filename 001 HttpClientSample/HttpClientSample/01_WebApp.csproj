@@ -164,6 +164,25 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MovieModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\Ticket.cs">
+      <DependentUpon>TicketModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TicketModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicketModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TicketModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicketModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TicketModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicketModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -234,6 +253,13 @@
     <Content Include="Models\MovieModel.edmx.diagram">
       <DependentUpon>MovieModel.edmx</DependentUpon>
     </Content>
+    <EntityDeploy Include="Models\TicketModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>TicketModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\TicketModel.edmx.diagram">
+      <DependentUpon>TicketModel.edmx</DependentUpon>
+    </Content>
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
@@ -260,6 +286,16 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>MovieModel.edmx</DependentUpon>
       <LastGenOutput>MovieModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\TicketModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TicketModel.edmx</DependentUpon>
+      <LastGenOutput>TicketModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\TicketModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TicketModel.edmx</DependentUpon>
+      <LastGenOutput>TicketModel.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -297,6 +333,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

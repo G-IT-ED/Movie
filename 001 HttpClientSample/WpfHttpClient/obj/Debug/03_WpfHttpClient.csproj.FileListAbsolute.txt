@@ -85,3 +85,4 @@ C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Deb
 C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.Properties.Resources.resources
 C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\03_WpfHttpClient.csproj.GenerateResource.Cache
 C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\WpfHttpClient.exe.licenses
+C:\Users\Admin\Documents\GitHub\Movie\001 HttpClientSample\WpfHttpClient\obj\Debug\03_WpfHttpClient.csprojResolveAssemblyReference.cache

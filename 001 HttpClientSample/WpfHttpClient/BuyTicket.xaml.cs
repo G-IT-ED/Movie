@@ -27,22 +27,25 @@ namespace WpfHttpClient
 
         public Ticket Ticket {get; set; }
 
-        public BuyTicket()
+        public BuyTicket(Ticket ticket)
         {
             InitializeComponent();
+            Ticket = ticket;
+            Name.Content = Ticket.Movie.Name;
+            Time.Content = Ticket.Movie.TimeBegin;
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             HttpClient client = new HttpClient();
 
-
-
             client
                 .PostAsync(URI,Ticket,new JsonMediaTypeFormatter())
                 .ContinueWith(response =>
                 {
                     response.Result.EnsureSuccessStatusCode();
+                    MessageBox.Show(response.Result.StatusCode.ToString());
                 });
         }
     }

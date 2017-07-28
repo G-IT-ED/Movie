@@ -12,10 +12,11 @@ namespace HttpClientSample.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Movie
+    public partial class Ticket
     {
-        public string Guid { get; set; }
-        public string Name { get; set; }
-        public Nullable<System.DateTime> TimeBegin { get; set; }
+        public int Id { get; set; }
+        public string IdMovies { get; set; }
+        public Nullable<int> Count { get; set; }
+        public Nullable<System.DateTime> BuyTime { get; set; }
     }
 }

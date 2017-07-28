@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HttpClient.Models
+namespace HttpClientSample.Models
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class MovieEntities : DbContext
+    public partial class MoviesEntities : DbContext
     {
-        public MovieEntities()
-            : base("name=MovieEntities")
+        public MoviesEntities()
+            : base("name=MoviesEntities")
         {
         }
     

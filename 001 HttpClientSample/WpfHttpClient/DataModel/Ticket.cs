@@ -4,7 +4,12 @@ namespace WpfHttpClient
 {
     public class Ticket
     {
-        Movie Movie { get; set; }
-        int Count { get; set; }
+        public Ticket(Movie movie, int count =1)
+        {
+            Movie = movie;
+            Count = count;
+        }
+        public Movie Movie { get; set; }
+        public int Count { get; set; }
     }
 }
