@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" x:Class="WpfHttpClient.BuyTicket"
+        Title="Билет" Height="159.655" Width="517.91" ResizeMode="NoResize" Icon="favicon.ico">
+    <Grid Margin="0,0,0,4">
+        <Label HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Content="Название фильма"/>
+        <Label HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Content="Время показа"/>
+        <Label HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Content="Количество"/>
+
+        <dxe:SpinEdit x:Name="CountTicket" HorizontalAlignment="Left" Margin="138,66,0,0" VerticalAlignment="Top" Width="361" Value="1" MinValue="1"/>
+        <Label x:Name="Name" HorizontalAlignment="Left" Margin="138,10,0,0" VerticalAlignment="Top" Height="26" Width="361"/>
+        <Label x:Name="Time" HorizontalAlignment="Left" Margin="138,36,0,0" VerticalAlignment="Top" Height="25" Width="361"/>
+
+        <dx:SimpleButton HorizontalAlignment="Left" Margin="382,93,0,0" VerticalAlignment="Top" Width="117" Height="21" Content="Купить" Click="Button_Click"/>
+
+    </Grid>
+</Window>

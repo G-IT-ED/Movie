@@ -1,0 +1,44 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style type="text/css">
+        #namesContainer {
+            width: 300px;
+            float: left;
+        }
+
+        #formContainer {
+            float: left;
+            margin-top: 15px;
+        }
+
+        #receivedElement {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <div>name: 'Batman2', timeBegin: '2017-09-28T13:51:13-07:00'</div>
+
+    <div id="formContainer">
+        <div>
+            Наименование <input type="text" id="elementId" />
+            Дата начала <input type="text" id="elementTime" />
+            <button id="button">Получить имя</button>
+        </div>
+        <div id="receivedElement"></div>
+    </div>
+   
+        <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+        <script src="~/Scripts/CustomScripts/getName.js"></script>
+    
+</body>
+</html>
