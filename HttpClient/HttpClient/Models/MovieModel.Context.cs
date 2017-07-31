@@ -26,5 +26,6 @@ namespace HttpClientSample.Models
         }
     
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
     }
 }

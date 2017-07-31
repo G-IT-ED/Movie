@@ -6,6 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="c9ef7a1635334dcb9ab903e7570325b6" Name="Диаграмма1">
         <EntityTypeShape EntityType="MovieModel.Movie" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MovieModel.Ticket" Width="1.5" PointX="3.25" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -167,22 +167,7 @@
     </Compile>
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\Ticket.cs">
-      <DependentUpon>TicketModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\TicketModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TicketModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\TicketModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TicketModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\TicketModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TicketModel.edmx</DependentUpon>
+      <DependentUpon>MovieModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -255,13 +240,6 @@
     <Content Include="Models\MovieModel.edmx.diagram">
       <DependentUpon>MovieModel.edmx</DependentUpon>
     </Content>
-    <EntityDeploy Include="Models\TicketModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>TicketModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\TicketModel.edmx.diagram">
-      <DependentUpon>TicketModel.edmx</DependentUpon>
-    </Content>
     <Content Include="Scripts\CustomScripts\create.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <Content Include="Views\Registration\Index.cshtml" />
@@ -292,16 +270,6 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>MovieModel.edmx</DependentUpon>
       <LastGenOutput>MovieModel.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\TicketModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>TicketModel.edmx</DependentUpon>
-      <LastGenOutput>TicketModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\TicketModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>TicketModel.edmx</DependentUpon>
-      <LastGenOutput>TicketModel.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\CustomScripts\getName.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />

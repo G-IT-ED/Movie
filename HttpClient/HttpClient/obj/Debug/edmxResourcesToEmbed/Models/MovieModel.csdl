@@ -2,6 +2,7 @@
 <Schema Namespace="MovieModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityContainer Name="MoviesEntities" p1:LazyLoadingEnabled="true">
     <EntitySet Name="Movies" EntityType="MovieModel.Movie" />
+    <EntitySet Name="Tickets" EntityType="MovieModel.Ticket" />
   </EntityContainer>
   <EntityType Name="Movie">
     <Key>
@@ -10,5 +11,14 @@
     <Property Name="Guid" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
     <Property Name="Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
     <Property Name="TimeBegin" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="IdMovies" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Count" />
+    <Property Type="DateTime" Name="BuyTime" Precision="0" />
   </EntityType>
 </Schema>

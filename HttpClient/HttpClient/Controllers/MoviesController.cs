@@ -13,8 +13,6 @@ namespace HttpClient.Controllers
     {
         MoviesEntities _moviesEntities = new MoviesEntities();
 
-        TicketEntities _ticketEntities = new TicketEntities();
-
         // Получение всех требуемых киносеансов
         public IEnumerable<Movie> Get()
         {
@@ -28,8 +26,8 @@ namespace HttpClient.Controllers
         {
             try
             {
-                _ticketEntities.Tickets.Add(new Ticket{BuyTime = DateTime.Now,Count = order.Count,IdMovies = order.Movie.Guid});
-                _ticketEntities.SaveChanges();
+                _moviesEntities.Tickets.Add(new Ticket { BuyTime = DateTime.Now, Count = order.Count, IdMovies = order.Movie.Guid });
+                _moviesEntities.SaveChanges();
                 return Request.CreateResponse(HttpStatusCode.OK, order);
             }
             catch (Exception)

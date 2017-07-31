@@ -46,6 +46,7 @@ namespace WpfHttpClient
                 {
                     response.Result.EnsureSuccessStatusCode();
                 });
+            Close();
         }
     }
 }
