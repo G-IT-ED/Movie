@@ -12,8 +12,8 @@
         <DockPanel Grid.Row="1" HorizontalAlignment="Stretch" Margin="0,327,0,40"/>
         <dxg:GridControl x:Name="_gridControl" AutoGenerateColumns="AddNew" EnableSmartColumnsGeneration="True" Margin="0,25,0,22" Grid.RowSpan="2">
             <dxg:GridControl.Columns>
-                <dxg:GridColumn x:Name="NameCol" FieldName="Name" UnboundType="String" Header="Наименование"/>
-                <dxg:GridColumn x:Name="TimeCol" FieldName="TimeBegin" Header="Дата начала"/>
+                <dxg:GridColumn x:Name="NameCol" FieldName="Name" UnboundType="String" Header="Наименование" ReadOnly="True"/>
+                <dxg:GridColumn x:Name="TimeCol" FieldName="TimeBegin" Header="Дата начала" ReadOnly="True"/>
                 <dxg:GridColumn x:Name="GuidCol" FieldName="Guid" SortOrder="Ascending" SortIndex="0" Header="Guid" Visible="False"/>
             </dxg:GridControl.Columns>
             <dxg:GridControl.View>
